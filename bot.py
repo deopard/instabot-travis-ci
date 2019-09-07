@@ -31,5 +31,5 @@ bot.login(
 
 hashtags = ['']
 for hashtag in hashtags:
-    bot.comment_hashtag(hashtag)
+    bot.comment_hashtag(hashtag, 100)
 bot.logout()
